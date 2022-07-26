@@ -8,7 +8,6 @@
     "dev": "webpack-dev-server --config webpack/demo --open --inline --hot",
     "demo": "webpack --config webpack/demo --progress --hide-modules",
     "build": "webpack --config webpack/prod --progress --hide-modules",
-    "prepublish": "npm run build"
   },
   "main": "dist/vue-at.js",
   "dependencies": {},
